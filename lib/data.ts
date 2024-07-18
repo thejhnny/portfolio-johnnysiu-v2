@@ -83,7 +83,7 @@ export const projectsData = [
     {
         title: "Tilt",
         description:
-            "EdTech platform to help high school seniors from underserved communities find their best fit college and evaluate their student aid packages",
+            "EdTech platform helping underserved high school seniors find colleges and evaluate student aid.",
         tags: [
             "React",
             "TypeScript",
