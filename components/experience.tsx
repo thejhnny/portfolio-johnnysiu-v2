@@ -25,8 +25,6 @@ function Experience() {
             <VerticalTimeline lineColor="#e5e7eb">
                 {experiencesData.map((item, index) => (
                     <VerticalTimelineElement
-                        //REMOVE VISIBLE = TRUE, SUPPOSED TO WORK WHEN DEPLOYED
-                        visible={true}
                         key={index}
                         contentStyle={{
                             background:
