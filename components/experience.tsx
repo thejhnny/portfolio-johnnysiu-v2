@@ -22,7 +22,11 @@ function Experience() {
             className="scroll-mt-28 mb-28 sm:mb-40"
         >
             <SectionHeading>My experience</SectionHeading>
-            <VerticalTimeline lineColor="#e5e7eb">
+            <VerticalTimeline
+                lineColor={
+                    theme === "light" ? "#e5e7eb" : "rgba(255, 255, 255, 0.2)"
+                }
+            >
                 {experiencesData.map((item, index) => (
                     <VerticalTimelineElement
                         key={index}
@@ -45,7 +49,10 @@ function Experience() {
                         date={item.date}
                         icon={item.icon}
                         iconStyle={{
-                            background: theme === "light" ? "white": "rgba(255, 255, 255, 0.15",
+                            background:
+                                theme === "light"
+                                    ? "white"
+                                    : "rgba(255, 255, 255, 0.15",
                             fontSize: "1.5rem",
                         }}
                     >
