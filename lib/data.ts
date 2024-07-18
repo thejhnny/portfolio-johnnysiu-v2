@@ -76,14 +76,14 @@ export const projectsData = [
     {
         title: "ABCmouse",
         description:
-            "I worked as a full-stack developer developing features for ABCmouse app.",
+            "An early learning platform designed for children ages 2 to 8. It offers a comprehensive curriculum that includes reading, math, science, and art.",
         tags: ["AngularJS", "PHP", "MySQL", "C#", "Unity"],
         imageUrl: abcmouseImg,
     },
     {
         title: "Tilt",
         description:
-            "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
+            "EdTech platform to help high school seniors from underserved communities find their best fit college and evaluate their student aid packages",
         tags: [
             "React",
             "TypeScript",
