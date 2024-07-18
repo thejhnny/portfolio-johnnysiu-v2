@@ -34,28 +34,6 @@ export const links = [
 
 export const experiencesData = [
     {
-        title: "Graduated from UCLA",
-        location: "Los Angeles, CA",
-        description:
-            "I gradudated from UCLA with a B.S in Applied Mathematics and a minor in Chinese",
-        icon: React.createElement(LuGraduationCap),
-        date: "2011",
-    },
-    {
-        title: "Accountant",
-        location: "Orlando, FL",
-        description: "I worked as an Accountant at Transamerica.",
-        icon: React.createElement(CgWorkAlt),
-        date: "2012 - 2017",
-    },
-    {
-        title: "Graduated from Hack Reactor",
-        location: "Los Angeles, CA",
-        description: "I gradudated from Hack Reactor",
-        icon: React.createElement(LuGraduationCap),
-        date: "2018",
-    },
-    {
         title: "Software Engineer III at Age of Learning",
         location: "Glendale, CA",
         description:
@@ -69,6 +47,28 @@ export const experiencesData = [
         description: "I worked as a contracting software engineer",
         icon: React.createElement(CgWorkAlt),
         date: "2020 - 2021",
+    },
+    {
+        title: "Graduated from Hack Reactor",
+        location: "Los Angeles, CA",
+        description: "I gradudated from Hack Reactor",
+        icon: React.createElement(LuGraduationCap),
+        date: "2018",
+    },
+    {
+        title: "Accountant",
+        location: "Orlando, FL",
+        description: "I worked as an Accountant at Transamerica.",
+        icon: React.createElement(CgWorkAlt),
+        date: "2012 - 2017",
+    },
+    {
+        title: "Graduated from UCLA",
+        location: "Los Angeles, CA",
+        description:
+            "I gradudated from UCLA with a B.S in Applied Mathematics and a minor in Chinese",
+        icon: React.createElement(LuGraduationCap),
+        date: "2011",
     },
 ] as const;
 
@@ -112,23 +112,26 @@ export const projectsData = [
 ] as const;
 
 export const skillsData = [
+    "JavaScript",
+    "React",
+    "Node.js",
+    "TypeScript",
+    "Python",
+    "Git",
     "HTML",
     "CSS",
-    "JavaScript",
-    "TypeScript",
-    "React",
     "React Native",
-    "Next.js",
-    "Node.js",
-    "Git",
-    "Tailwind CSS",
-    "MySQL",
     "Redux",
+    "AngularJS",
     "GraphQL",
-    "Apollo",
+    "Next.js",
     "Express",
-    "PostgreSQL",
-    "Python",
+    "Tailwind CSS",
     "Django",
+    "MySQL",
+    "PostgreSQL",
+    "PHP",
+    "C#",
+    "Unity",
     "Framer Motion",
 ] as const;
