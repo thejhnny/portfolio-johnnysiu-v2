@@ -51,8 +51,7 @@ export const experiencesData = [
     {
         title: "Graduated from Hack Reactor",
         location: "Los Angeles, CA",
-        description:
-            "I gradudated from Hack Reactor",
+        description: "I gradudated from Hack Reactor",
         icon: React.createElement(LuGraduationCap),
         date: "2018",
     },
@@ -67,8 +66,7 @@ export const experiencesData = [
     {
         title: "Software Engineer at Tilt",
         location: "Long Beach, CA",
-        description:
-            "I worked as a contracting software engineer",
+        description: "I worked as a contracting software engineer",
         icon: React.createElement(CgWorkAlt),
         date: "2020 - 2021",
     },
@@ -101,7 +99,14 @@ export const projectsData = [
         title: "What To Eat",
         description:
             "A mobile app that helps people decide what to order at restaurants based off their preferences",
-        tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
+        tags: [
+            "React",
+            "React Native",
+            "TypeScript",
+            "Node.js",
+            "PostgreSQL",
+            "Tailwind CSS",
+        ],
         imageUrl: comingSoonImg,
     },
 ] as const;
