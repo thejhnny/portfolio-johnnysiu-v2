@@ -2,7 +2,7 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { LuGraduationCap } from "react-icons/lu";
 import abcmouseImg from "@/public/abcmouse.png";
-import tiltLogo from "@/public/tilt-logo.svg";
+import tiltLogo from "@/public/tilt-logo.png";
 import comingSoonImg from "@/public/coming_soon.png";
 
 export const links = [

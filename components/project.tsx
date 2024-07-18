@@ -41,7 +41,7 @@ function Project({ title, description, tags, imageUrl }: ProjectProps) {
                     </ul>
                 </div>
                 <Image
-                    className="absolute hidden sm:block top-8 -right-40 w-[28.25rem] rounded-t-lg shadow-2xl transition
+                    className="absolute hidden sm:max-w-[50%] sm:block top-8 -right-10 w-[28.25rem] rounded-t-lg shadow-2xl transition
                 group-hover:scale-[1.04]
                 group-hover:-translate-x-3
                 group-hover:translate-y-3
@@ -51,7 +51,7 @@ function Project({ title, description, tags, imageUrl }: ProjectProps) {
                 group-even:group-hover:translate-y-3
                 group-even:group-hover:rotate-2
 
-                group-even:right-[initial] group-even:-left-40 
+                group-even:right-[initial] group-even:-left-10 
                 "
                     src={imageUrl}
                     alt="Project Image"
