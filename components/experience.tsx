@@ -29,7 +29,6 @@ function Experience() {
             >
                 {experiencesData.map((item, index) => (
                     <VerticalTimelineElement
-                        visible={true}
                         key={index}
                         contentStyle={{
                             background:
@@ -48,7 +47,7 @@ function Experience() {
                                     : "0.4rem solid rbga(255, 255, 255, 0.5)",
                         }}
                         date={item.date}
-                        dateClassName="ml-5 mr-5"
+                        dateClassName="min-[1170px]:ml-5 min-[1170px]:mr-5"
                         icon={item.icon}
                         iconStyle={{
                             background:
