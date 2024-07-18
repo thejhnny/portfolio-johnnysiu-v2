@@ -1,10 +1,9 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
-import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
+import abcmouseImg from "@/public/abcmouse.png";
 import tiltLogo from "@/public/tilt-logo.svg";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import comingSoonImg from "@/public/coming_soon.png";
 
 export const links = [
     {
@@ -81,7 +80,7 @@ export const projectsData = [
         description:
             "I worked as a full-stack developer developing features for ABCmouse app.",
         tags: ["AngularJS", "PHP", "MySQL", "C#", "Unity"],
-        imageUrl: corpcommentImg,
+        imageUrl: abcmouseImg,
     },
     {
         title: "Tilt",
@@ -103,7 +102,7 @@ export const projectsData = [
         description:
             "A mobile app that helps people decide what to order at restaurants based off their preferences",
         tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-        imageUrl: wordanalyticsImg,
+        imageUrl: comingSoonImg,
     },
 ] as const;
 
