@@ -51,7 +51,7 @@ export const experiencesData = [
     {
         title: "Graduated from Hack Reactor",
         location: "Los Angeles, CA",
-        description: "I gradudated from Hack Reactor",
+        description: "I graduated from Hack Reactor, a Advanced Software Engineering Immersive Program",
         icon: React.createElement(LuGraduationCap),
         date: "2018",
     },
