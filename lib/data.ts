@@ -66,7 +66,7 @@ export const experiencesData = [
         title: "Graduated from UCLA",
         location: "Los Angeles, CA",
         description:
-            "I gradudated from UCLA with a B.S in Applied Mathematics and a minor in Chinese",
+            "I graduated from UCLA with a B.S in Applied Mathematics and a minor in Chinese",
         icon: React.createElement(LuGraduationCap),
         date: "2011",
     },
