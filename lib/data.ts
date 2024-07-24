@@ -56,7 +56,7 @@ export const experiencesData = [
         date: "2018",
     },
     {
-        title: "Accountant",
+        title: "Accountant at Transamerica",
         location: "Los Angeles, CA",
         description: "I worked as an Accountant at Transamerica.",
         icon: React.createElement(CgWorkAlt),
