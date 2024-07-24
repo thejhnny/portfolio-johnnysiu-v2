@@ -68,7 +68,7 @@ export const experiencesData = [
         description:
             "I graduated from UCLA with a B.S in Applied Mathematics and a minor in Chinese",
         icon: React.createElement(LuGraduationCap),
-        date: "2011",
+        date: "2007 - 2011",
     },
 ] as const;
 
