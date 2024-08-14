@@ -4,6 +4,7 @@ import { LuGraduationCap } from "react-icons/lu";
 import abcmouseImg from "@/public/abcmouse.png";
 import tiltLogo from "@/public/tilt-logo.png";
 import comingSoonImg from "@/public/coming_soon.png";
+import pdfGenie from "@/public/pdfgenie.png";
 
 export const links = [
     {
@@ -51,7 +52,8 @@ export const experiencesData = [
     {
         title: "Graduated from Hack Reactor",
         location: "Los Angeles, CA",
-        description: "I graduated from Hack Reactor, an Advanced Software Engineering Immersive Program",
+        description:
+            "I graduated from Hack Reactor, an Advanced Software Engineering Immersive Program",
         icon: React.createElement(LuGraduationCap),
         date: "2018",
     },
@@ -94,6 +96,22 @@ export const projectsData = [
             "WordPress",
         ],
         imageUrl: tiltLogo,
+    },
+    {
+        title: "PDF Genie",
+        description:
+            "A web app that allows users to upload PDFs and ask questions about their documents",
+        tags: [
+            "React",
+            "TypeScript",
+            "Tailwind CSS",
+            "Langchain",
+            "Pinecone",
+            "Clerk",
+            "Firebase",
+            "Stripe",
+        ],
+        imageUrl: pdfGenie,
     },
     {
         title: "What To Eat",
