@@ -35,6 +35,14 @@ export const links = [
 
 export const experiencesData = [
     {
+        title: "Advanced Coder - AI Training at Outlier",
+        location: "Remote",
+        description:
+            "I evaluated AI-generated code, provided detailed feedback, and ensured functionality and accuracy by fixing bugs and refining outputs.",
+        icon: React.createElement(CgWorkAlt),
+        date: "2024",
+    },
+    {
         title: "Software Engineer III at Age of Learning",
         location: "Glendale, CA",
         description:
